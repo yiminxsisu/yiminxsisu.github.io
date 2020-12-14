@@ -1,0 +1,140 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	/* background: #efeff3 url(images/img01.png) repeat; */
+	font-family: 'Roboto', sans-serif;;
+	font-size: 16px;
+    color: #5e5959;
+    letter-spacing: 0.8px;
+    line-height: 22px;
+}
+
+#content {
+    overflow: hidden;
+    width: 1200px;
+    margin: 20px auto;
+    padding: 20px 0px 0px 0px;
+ }
+
+ #header {
+    overflow: hidden;
+    padding: 30px;
+ }
+
+ #name {
+    float: left;
+    padding: 15px 50px 0px 0px
+ }
+
+ #menu
+ {
+     float: right;
+     width: 700px;
+     padding: 30px 50px 0px 0px;
+ }
+ 
+ #menu ul
+ {
+     float: right;
+     margin: 0;
+     padding: 0px 0px 0px 0px;
+     list-style: none;
+     line-height: normal;
+ }
+ 
+ 
+ #menu li
+ {
+     float: left;
+ }
+ 
+ #menu a {
+     display: block;
+     margin-left: 1px;
+     padding: 10px 10px 10px 20px;
+     letter-spacing: 1px;
+     text-decoration: none;
+     text-align: center;
+     font-size: 16px;
+     font-weight: 400;
+     color: #5e5959
+ }
+
+
+#main {
+	overflow: hidden;
+	width:auto;
+	margin: 10px 50px 0px 0px;
+	padding: 0px 35px;
+}
+
+#main a {
+    color:#5e5959;
+    text-decoration: underline;
+}
+
+#footer {
+    /* border-top: #5e5959 solid 0.8px; */
+    padding: 10px;
+    margin: 40px;
+}
+
+#footer p {
+    text-align: center;
+}
+
+#quote {
+    text-align: center;
+}
+
+
+/** IMAGE GALLERY FOR WALK **/
+/* First the Grid */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+    column-gap: 30px;
+    row-gap:75px;
+    justify-items: center;
+    margin: 78px 0px 0px 0px;
+    padding: 0px;
+  }
+  
+  .gallery-grid-first {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+    column-gap: 30px;
+    row-gap:75px;
+    justify-items: center;
+    margin: 30px 0px 0px 0px;
+    padding: 0px;
+  }
+  
+  /* The Images */
+  .gallery-img {
+    max-width: 100%;
+    height: auto;
+    object-fit: fill;
+    /* transition: opacity 0.25s ease-in-out; */
+  }
+  
+  /* .image-container:hover {
+    opacity: .75;
+  } */
+
+.image-caption {
+    padding:0px 0px 5px 0px;
+    text-align:center;
+    margin-left:0px;
+    margin-top: -100px;
+    font-size:20px;
+    color:#5e5959;
+    opacity: 0;
+}
+
+.image-container:hover .image-caption{
+    opacity:1;
+}
+.image-container:hover .gallery-img {
+    opacity: 0.3;
+}
