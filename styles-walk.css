@@ -135,5 +135,5 @@ body {
     opacity:1;
 }
 .image-container:hover .gallery-img {
-    opacity: 0.3;
+    opacity: 0.15;
 }
