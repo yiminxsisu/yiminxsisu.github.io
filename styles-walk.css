@@ -1,7 +1,6 @@
 body {
 	margin: 0px;
 	padding: 0px;
-	/* background: #efeff3 url(images/img01.png) repeat; */
 	font-family: 'Roboto', sans-serif;;
 	font-size: 16px;
     color: #5e5959;
@@ -13,7 +12,7 @@ body {
     overflow: hidden;
     width: 1200px;
     margin: 20px auto;
-    padding: 20px 0px 0px 0px;
+    padding: 20px 0px 0px 20px;
  }
 
  #header {
@@ -64,7 +63,7 @@ body {
 #main {
 	overflow: hidden;
 	width:auto;
-	margin: 10px 50px 0px 0px;
+	margin: 10px 30px 0px 0px;
 	padding: 0px 35px;
 }
 
