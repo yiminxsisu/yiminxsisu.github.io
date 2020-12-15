@@ -25,6 +25,13 @@ body {
     padding: 15px 50px 0px 0px
  }
 
+
+ #name a{
+    text-decoration: none;
+    color: #5e5959;    
+
+ }
+
  #menu
  {
      float: right;
@@ -70,6 +77,10 @@ body {
 #main a {
     color:#5e5959;
     text-decoration: underline;
+}
+
+#main h3 {
+    color:#5e5959;
 }
 
 #main #introduction {
