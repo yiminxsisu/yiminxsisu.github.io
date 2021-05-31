@@ -10,6 +10,7 @@
         <!-- <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet"> -->
         <!-- <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet"> -->
         <link href="https://fonts.googleapis.com/css2?family=Domine&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link rel="stylesheet" href='style.css'>
         <title>Yimin Xiao | 肖亦敏</title>
     </head>
@@ -19,13 +20,23 @@
                 <div class="logo-container">
                     <h4> <a href="index.html" class="logo">Yimin Xiao</a></h4>
                 </div>
-                <nav>
+                <nav class='normal-nav'>
                     <ul class="nav-links">
                         <li><a href="index.html" class="nav-link">ABOUT</a></li>
                         <li><a href="#research" class="nav-link">PUBLICATIONS</a></li>
                         <li><a href="#teaching" class="nav-link">TEACHING</a></li>
                         <li><a href="#misc" class='nav-link'>MISC.</a></li>
                     </ul>
+                </nav>
+                <!-- navigation button on small screen -->
+                <nav class="small-nav">
+                    <img src="images/outline.png" alt="" class="dropbtn" width="46px">
+                    <div class="dropdown-content">
+                        <a href="index.html" class="nav-link">ABOUT</a>
+                        <a href="#research" class="nav-link">PUBLICATIONS</a>
+                        <a href="#teaching" class="nav-link">TEACHING</a>
+                        <a href="#misc" class='nav-link'>MISC.</a>
+                    </div>
                 </nav>   
             </div>            
         </header>
@@ -63,8 +74,16 @@
                     </div>
                 </div>
 
+                
+
                 <!-- right column -->
                 <div class="main-frame">
+                    <!-- header info when the sidebar is hidden on a small screen -->
+                    <div class="section" id='info-small-screen'>
+                        <img class=photo-small src="images/intro.jpg" width=30%><br><br>
+                        <p>Hi, I'm Yimin Xiao. <br>Incoming Ph.D. student at UMD iSchool.
+                        </p>   
+                    </div>
                     <div class="section" id='about'>
                         <div class="section-title-first"><h4>ABOUT</h4></div>
                         <p>
@@ -110,7 +129,7 @@
                                 <p>[c1] <u>Yimin Xiao</u>*, Zong-Ying Slaton* and Lu Xiao. (2020). 
                                     TV-AfD: An imperative-annotated corpus from Big Bang Theory and Wikipedia’s Articles for Deletion discussions.
                                     In <i>Proceedings of 12th Language Resources and Evaluation Conference</i>, pp.6544–6550. 
-                                    <a href="https://www.aclweb.org/anthology/2020.lrec-1.805/">[Paper]</a> <a href="https://github.com/yiminxsisu/TV-AfD_Imperative_Corpus">[Data]</a></p>
+                                    <a href="https://www.aclweb.org/anthology/2020.lrec-1.805/">[paper]</a> <a href="https://github.com/yiminxsisu/TV-AfD_Imperative_Corpus">[data]</a></p>
                             </div>
                             
                         </div>
