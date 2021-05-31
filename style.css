@@ -51,6 +51,7 @@ nav.normal-nav {
     justify-content: flex-end;
 }
 
+
 .nav-links {
     justify-content: space-around;
     list-style: none;
@@ -289,6 +290,7 @@ footer {
     display: block;
 }
 
+
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #ddd;}
 
@@ -297,6 +299,7 @@ footer {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .small-nav:hover .dropbtn {background-color: #e6e4e0;}
+
 
  /* Dropdown Button */
  .dropbtn {
@@ -307,3 +310,5 @@ footer {
     border: none;
     opacity: 80%;
 }
+
+
