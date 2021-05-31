@@ -149,7 +149,7 @@ footer {
     align-items: center;
     /* margin-top: 2%; */
     background-color: rgb(252, 251, 248);
-    font-size: 14px;
+    font-size: 10px;
 }
 
 .copyright {
@@ -157,6 +157,7 @@ footer {
     align-items: center;
     margin: auto;
     text-align: center;
+    font-size:12px;
 }
 
 
