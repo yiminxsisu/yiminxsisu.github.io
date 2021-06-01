@@ -294,6 +294,7 @@ footer {
     }
     .section#info-small-screen{
         display: flex;
+        margin-bottom: 8%;
     }
 
     .photo-small {
