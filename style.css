@@ -10,6 +10,7 @@
 
 body {
     font-family: 'Noto Sans SC', sans-serif; font-weight: 400; font-style:normal;
+    /* font-family: 'Roboto', sans-serif; */
 }
 
 p {
@@ -68,7 +69,8 @@ header {
 
 .logo{
     /* margin: 5px; */
-    font-size: 24px;
+    font-size: 22px;
+    /* font-weight: bold; */
     /* font-weight: 800; */
     color: #424041da;
     /* color:white; */
@@ -78,9 +80,9 @@ header {
     /* font-family: 'Permanent Marker', cursive; */
     /* font-family: 'Caveat', cursive; */
     /* font-family: 'Domine', serif; */
-    font-family: 'Merriweather', serif;
+    /* font-family: 'Merriweather', serif; */
     /* font-family: 'Open Sans', sans-serif; */
-    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Roboto', sans-serif;
 }
 
 .logo:hover {
@@ -142,7 +144,7 @@ nav.normal-nav {
 .main-frame {
     /* background-color: antiquewhite; */
     margin-top: 2%;
-    flex: 60%
+    flex: 65%
 }
 
 .section {
