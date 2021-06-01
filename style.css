@@ -106,7 +106,7 @@ nav.normal-nav {
 
 .nav-link {
     color: #424041da;
-    font-size: 14px;
+    font-size: 13px;
     /* font-weight: lighter; */
     text-decoration: none;
     /* font-family: 'Open Sans', sans-serif; */
@@ -144,7 +144,7 @@ nav.normal-nav {
 .main-frame {
     /* background-color: antiquewhite; */
     margin-top: 2%;
-    flex: 65%
+    flex: 60%
 }
 
 .section {
