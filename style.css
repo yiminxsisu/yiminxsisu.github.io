@@ -80,6 +80,7 @@ header {
     /* font-family: 'Domine', serif; */
     font-family: 'Merriweather', serif;
     /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
 }
 
 .logo:hover {
@@ -344,9 +345,12 @@ footer {
       }
   }
 
-  @media (max-width: 375px) {
+  @media (max-width: 500px) {
     .header-container, .content, .footer, .content2 {
         width: 85%;
+    }
+    .logo {
+        font-size: 20px;
     }
   }
 
