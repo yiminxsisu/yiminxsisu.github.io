@@ -4,13 +4,15 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    color:#424041da;
+    color:#505050da;
     font-size:16px;
 }
 
 body {
     font-family: 'Noto Sans SC', sans-serif; font-weight: 400; font-style:normal;
     /* font-family: 'Roboto', sans-serif; */
+    /* font-family: "Calibri", sans-sefit; */
+    /* font-family: Helvetica Neue,Helvetica,Arial,sans-serif;  */
 }
 
 p {
@@ -18,12 +20,12 @@ p {
 }
 
 a {
-    color:rgba(255, 135, 29, 0.94);
+    color:rgba(249, 155, 72, 0.94);
     text-decoration: none;
 }
 
 a:hover {
-    color:rgba(255, 108, 29, 0.94);
+    color:rgba(245, 131, 70, 0.94);
     text-decoration: none;
 }
 
@@ -75,14 +77,14 @@ header {
     color: #424041da;
     /* color:white; */
     text-decoration: none;
-    /* font-family: 'Merienda One', cursive; */
+    font-family: 'Merienda One', cursive;
     /* font-family: 'Pacifico', cursive; */
     /* font-family: 'Permanent Marker', cursive; */
     /* font-family: 'Caveat', cursive; */
     /* font-family: 'Domine', serif; */
     /* font-family: 'Merriweather', serif; */
     /* font-family: 'Open Sans', sans-serif; */
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
 }
 
 .logo:hover {
