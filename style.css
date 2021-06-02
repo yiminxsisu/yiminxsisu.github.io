@@ -138,15 +138,18 @@ nav.normal-nav {
 .side {
     /* background-color: #5f5f79; */
     margin-top: 2%;
-    flex: 30%;
+    flex: 32%;
+    /* text-align: center; */
 }
 
-
+.gap {
+    flex: 2%;
+}
 
 .main-frame {
     /* background-color: antiquewhite; */
     margin-top: 2%;
-    flex: 60%
+    flex: 65%
 }
 
 .section {
@@ -319,6 +322,10 @@ footer {
     .section#info-small-screen{
         display: flex;
         margin-bottom: 8%;
+    }
+
+    .gap{
+        display:none;
     }
 
     .photo-small {
