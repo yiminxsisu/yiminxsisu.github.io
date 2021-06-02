@@ -138,7 +138,7 @@ nav.normal-nav {
 .side {
     /* background-color: #5f5f79; */
     margin-top: 2%;
-    flex: 32%;
+    flex: 30%;
     /* text-align: center; */
 }
 
@@ -149,7 +149,7 @@ nav.normal-nav {
 .main-frame {
     /* background-color: antiquewhite; */
     margin-top: 2%;
-    flex: 65%
+    flex: 68%
 }
 
 .section {
