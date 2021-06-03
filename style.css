@@ -380,7 +380,7 @@ footer {
     .small-nav {
         position: relative;
         display: inline-block;
-        margin-right:5%;
+        /* margin-right:5%; */
     }
 
     .dropdown {
