@@ -1,0 +1,428 @@
+/* ---------------------------------------------------- */
+/* ------------- Fonts and margins -------------------- */
+/* ---------------------------------------------------- */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color:#424041da;
+    font-size:16px;
+}
+
+body {
+    /* font-family: 'Noto Sans SC', sans-serif; font-weight: 400; font-style:normal; */
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: "Calibri", sans-sefit; */
+    /* font-family: Helvetica Neue,Helvetica,Arial,sans-serif;  */
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+p {
+    margin-bottom: 2%;
+}
+
+a {
+    color:rgba(255, 108, 45, 0.94);
+    text-decoration: none;
+}
+
+a:hover {
+    color:rgba(211, 75, 16, 0.94);
+    text-decoration: none;
+}
+
+b {
+    font-weight: 500;
+}
+
+hr {
+    border: none;
+    height: 200%;
+    background-color: rgb(19, 19, 19);
+}
+
+hr.head-divider {
+   background-color:rgb(250, 248, 246);
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* ---------------------------------------------------- */
+/* ----------- Header for sub pagess ------------------ */
+/* ---------------------------------------------------- */
+
+header {
+    /* background-color: rgba(252, 251, 250, 0.858); */
+    margin-top: 3%;
+}
+
+.header-container {
+    display: flex;
+    /* background: lightblue; */
+    width: 45%;
+    height: 10vh;
+    margin:auto;
+    /* margin-top: 0.5%; */
+    align-items: center;
+}
+
+.logo-container, .nav-links {
+    display: flex;
+    margin-top: 1.4%;
+}
+
+.logo-container {
+    flex:30%;
+}
+
+.logo{
+    /* margin: 5px; */
+    font-size: 36px;
+    /* font-weight: bold; */
+    font-weight: 800;
+    color:#424041da;
+    /* color:white; */
+    text-decoration: none;
+    /* font-family: 'Merienda One', cursive; */
+    /* font-family: 'Pacifico', cursive; */
+    /* font-family: 'Permanent Marker', cursive; */
+    /* font-family: 'Caveat', cursive; */
+    /* font-family: 'Domine', serif; */
+    /* font-family: 'Merriweather', serif; */
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Satisfy', cursive;
+}
+
+.logo:hover {
+    color: #2a292ada;
+}
+
+nav.normal-nav {
+    /* background-color:aqua; */
+    flex: 68%;
+    justify-content: flex-end;
+    margin-top: 18px;
+    /* margin-right: 1px; */
+}
+
+
+.nav-links {
+    justify-content: flex-end;
+    list-style: none;
+}
+
+
+.nav-link {
+    color: #424041da;
+    font-size: 13px;
+    /* font-weight: lighter; */
+    text-decoration: none;
+    /* font-family: 'Open Sans', sans-serif; */
+}
+
+.nav-link:hover {
+    color: #2a292ada;
+}
+
+.intro-pic {
+    margin-bottom: 3%;
+    box-shadow: 0 3px 6px 0 #9b9b9b;
+}
+
+
+/* ---------------------------------------------------- */
+/* -------------------- Home page --------------------- */
+/* ---------------------------------------------------- */
+
+.main-intros {
+    text-align: center;
+    margin-top: 15%;
+}
+
+.main-name {
+    font-size: 45px;
+    font-weight: 600;
+
+}
+
+.main-pic {
+    width: 30%;
+    border-radius: 50%;
+    margin-bottom: 5%;
+}
+
+.home-nav {
+    /* background-color: aqua; */
+    width: 60%;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 10%;
+
+}
+
+.home-links {
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    /* background-color: blueviolet; */
+    /* margin: auto; */
+}
+
+.home-link {
+    /* width: 100%; */
+    flex: 1;
+    color:#424041da;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 14px;
+    /* margin-right: 20px; */
+    /* background-color: brown; */
+
+}
+
+#main-text {
+    font-size: 20px;
+}
+
+#big-name {
+    color: rgba(255, 108, 45, 0.94); 
+    font-size: 45px;
+    font-family: 'Satisfy', cursive;
+}
+
+/* ---------------------------------------------------- */
+/* --------- Main Content for text-based subpages ----- */
+/* ---------------------------------------------------- */
+
+.content {
+    width: 45%;
+    margin: 0 auto;
+    /* display: flex;
+    justify-content: flex-start; */
+    /* background-color: antiquewhite; */
+    
+}
+
+
+.main-frame {
+    /* background-color: antiquewhite; */
+    margin-top: 2%;
+    flex: 68%
+}
+
+.section {
+    margin-bottom: 4%;
+}
+
+.section-title-first {
+    margin-bottom: 2%;
+    /* font-size: 15px; */
+    /* margin-left: -2%; */
+    font-weight: 600;
+    font-size:16px;
+    /* font-family: 'Open Sans', sans-serif; */
+}
+
+
+.section-title {
+    margin-bottom: 2%;
+    margin-top: 3%;
+    /* margin-top: 7%; */
+    /* font-size: 15px; */
+    /* margin-left: -2%; */
+    font-weight: 600;
+    font-size:16px;
+    /* font-family: 'Open Sans', sans-serif; */
+}
+
+
+.category-title {
+    margin-bottom: 2%;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.category-item {
+    margin-bottom: 1%;
+}
+
+.side-note {
+    margin-bottom: 2%;
+    font-size: 13px;
+}
+
+.research-intro {
+    margin-bottom: 0.5%;
+}
+
+footer {
+    /* width: 70%; */
+    height: 10vh;
+    margin:auto;
+    align-items: center;
+    /* margin-top: 2%; */
+    /* background-color: rgb(252, 251, 248); */
+    font-size: 10px;
+    /* background-color: rgba(252, 251, 250, 0.858); */
+}
+
+.copyright {
+    /* width: 70%; */
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    font-size:14px;
+    padding: 20px;
+}
+
+
+/* ---------------------------------------------------- */
+/* ------ Main Content for photo subpages ------------- */
+/* ---------------------------------------------------- */
+
+.content2 {
+    width: 45%;
+    margin: 0 auto;
+    margin-bottom: 3%;
+    /* background-color: antiquewhite; */
+    
+}
+
+.photo-title, .quote {
+    margin-top: 3%;
+    margin-bottom: 2%;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.image-container {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.image-cards {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content:flex-start;
+    gap: 1em;
+}
+
+.image-card {
+    height: 24vh;
+    /* flex-grow: 1; */
+}
+
+.photo {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+}
+
+
+/* Photo slides */
+.photo-title{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+
+.photo-section-title {
+    text-align: center;   
+    align-items: center;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    font-size: 16px;
+    /* font-weight: 400; */
+}
+
+
+/* ---------------------------------------------------- */
+/* ------------- Mobile accessbility ------------------ */
+/* ---------------------------------------------------- */
+
+@media (max-width: 1200px) {
+    .side {
+      position: absolute;
+      display: none;
+    }
+    nav.normal-nav {
+        position:absolute;
+        display: none;
+    }
+    .section#info-small-screen{
+        display: flex;
+        margin-bottom: 8%;
+    }
+
+    .gap{
+        display:none;
+    }
+
+    .photo-small {
+        flex: 0.7;
+    }
+    
+    /* The container <div> - needed to position the dropdown content */
+    .small-nav {
+        position: relative;
+        display: inline-block;
+        margin-right:5%;
+    }
+
+    .dropdown {
+        margin-top: 2%;
+    }
+
+    .header-container, .content, .footer, .content2 {
+        width: 65%;
+    }
+    
+    .home-nav {
+        width: 100%;
+    }
+
+    .dropdown-item {
+        color: #424041da;
+    }
+}
+
+  @media (min-width: 1200px) {
+    nav.small-nav {
+      position: absolute;
+      display: none;
+    }
+    .section#info-small-screen {
+        position: absolute;
+        display: none;
+      }
+  }
+
+  @media (max-width:375px) {
+    .header-container, .content, .footer, .content2 {
+        width: 85%;
+    }
+    .logo {
+        font-size: 20px;
+    }    
+    .home-nav {
+        width: 100%;
+    }
+  }
+
+
+
+
+
