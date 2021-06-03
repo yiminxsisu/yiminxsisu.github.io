@@ -383,6 +383,13 @@ footer {
         /* margin-right:5%; */
     }
 
+    .dropbtn {
+        background-color: white;
+        border: none;
+    }
+
+
+
     .dropdown {
         margin-top: 2%;
     }
