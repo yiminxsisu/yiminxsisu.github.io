@@ -376,6 +376,7 @@ footer {
 
     .dropbtn {
         all: unset;
+        width: 50%
         /* background-color: white;
         border: none; */
     }
@@ -386,7 +387,7 @@ footer {
 
 
     .dropdown {
-        margin-top: 2%;
+        margin-top: 8%;
         align-items:right;
         float:right;
         text-align: right;
@@ -426,23 +427,7 @@ footer {
     .home-nav {
         width: 100%;
     }
-    /* .dropdown {
-        position:absolute;
-        display: none;
-    } */
-  }
-
-  /* @media (min-width:450px) {
-      .dropdown-2 {
-          position: absolute;
-          display: none;
-          margin-top: 2%;
-        align-items:right;
-        float:right;
-        text-align: right;
-      }
-      
-  } */
+}
 
 
 
