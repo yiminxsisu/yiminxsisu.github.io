@@ -33,6 +33,10 @@ a:hover {
     text-decoration: none;
 }
 
+a#current {
+    text-decoration: underline;
+}
+
 b {
     font-weight: 500;
 }
