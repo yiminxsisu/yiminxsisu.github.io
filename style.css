@@ -375,10 +375,14 @@ footer {
     }
 
     .dropbtn {
-        background-color: white;
-        border: none;
+        all: unset;
+        /* background-color: white;
+        border: none; */
     }
 
+    .dropbtn:hover {
+        background-color: tomato;
+    }
 
 
     .dropdown {
@@ -412,7 +416,7 @@ footer {
       }
   }
 
-  @media (max-width:375px) {
+  @media (max-width:450px) {
     .header-container, .content, .footer, .content2 {
         width: 85%;
     }
@@ -422,9 +426,23 @@ footer {
     .home-nav {
         width: 100%;
     }
+    /* .dropdown {
+        position:absolute;
+        display: none;
+    } */
   }
 
-
+  /* @media (min-width:450px) {
+      .dropdown-2 {
+          position: absolute;
+          display: none;
+          margin-top: 2%;
+        align-items:right;
+        float:right;
+        text-align: right;
+      }
+      
+  } */
 
 
 
