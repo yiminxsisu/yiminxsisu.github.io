@@ -296,8 +296,15 @@ footer {
     padding: 20px;
 }
 
+.book-list {
+    /* list-style: none; */
+    /* margin-bottom: 0.5%; */
+}
 
-
+.book-title {
+    /* font-weight: 400; */
+    
+}
 
 /* ---------------------------------------------------- */
 /* ------------- Mobile accessbility ------------------ */
