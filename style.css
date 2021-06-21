@@ -33,6 +33,11 @@ a:hover {
     text-decoration: none;
 }
 
+a:visited {
+    color:rgba(211, 75, 16, 0.94);
+    text-decoration: none;
+}
+
 a#current {
     text-decoration: underline;
 }
