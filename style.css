@@ -301,14 +301,10 @@ footer {
     padding: 20px;
 }
 
-.book-list {
-    /* list-style: none; */
-    /* margin-bottom: 0.5%; */
-}
-
-.book-title {
-    /* font-weight: 400; */
-    
+.book-section {
+    color: rgba(255, 108, 45, 0.94); 
+    margin-bottom: 1.5%;
+    font-weight: 400;
 }
 
 
