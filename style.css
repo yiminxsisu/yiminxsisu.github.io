@@ -146,6 +146,10 @@ nav.normal-nav {
     color: #2a292ada;
 }
 
+.nav-link:visited {
+    color: #2a292ada;
+}
+
 .intro-pic {
     margin-bottom: 3%;
     box-shadow: 0 3px 6px 0 #9b9b9b;
