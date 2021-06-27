@@ -146,7 +146,7 @@ nav.normal-nav {
     color: #2a292ada;
 }
 
-.nav-link:visited {
+.nav-link:hover {
     color: #2a292ada;
 }
 
@@ -389,6 +389,33 @@ footer {
     margin-bottom: 3%;
     box-shadow: 0 3px 6px 0 #9b9b9b;
 }
+
+
+/* ---------------------------------------------------- */
+/* ------------- Sunglow grid ------------------------- */
+/* ---------------------------------------------------- */
+
+.sunglow-grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 2%;
+    grid-row-gap: 0.8%;
+    margin-bottom: 10%;
+}
+
+
+.sunglow-photo {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+    /* box-shadow: 0 2px 4px 0 #9b9b9b; */
+}
+
+.photo-title#sunglow {
+    margin-bottom: 4%;
+}
+
 
 
 /* ---------------------------------------------------- */
