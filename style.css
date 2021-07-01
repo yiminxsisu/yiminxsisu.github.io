@@ -464,6 +464,7 @@ footer {
         float:right;
         text-align: right;
     }
+    
 
     .header-container, .content, .footer, .content2 {
         width: 65%;
@@ -475,6 +476,8 @@ footer {
 
     .dropdown-item {
         color: #424041da;
+        font-size:14px;
+        font-weight: 300;
     }
 }
 
