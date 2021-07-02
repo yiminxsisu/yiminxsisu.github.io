@@ -151,9 +151,9 @@ nav.normal-nav {
     color: #2a292ada;
 }
 
-a.nav-link#current {
+/* a.nav-link#current {
     font-weight: 400;
-}
+} */
 
 
 
@@ -168,12 +168,14 @@ a.nav-link#current {
 /* ---------------------------------------------------- */
 
 .content#cover {
-    height:75vh;
+    height:85vh;
+    /* background-color: blue; */
 }
 
 .main-intros {
     text-align: center;
     margin-top: 15vh;
+    /* background: blueviolet; */
 }
 
 .main-name {
@@ -194,17 +196,26 @@ a.nav-link#current {
     width: 60%;
     align-items: center;
     margin: auto;
-    margin-bottom: 5vh;
+    /* margin-bottom: 5vh; */
+    /* background: blueviolet; */
 
 }
 
 .home-links {
     width: 100%;
-    display: flex;
+    /* display:flex;
+    justify-content: space-around; */
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 2%;
     list-style: none;
-    justify-content: space-around;
+    
     /* background-color: blueviolet; */
     /* margin: auto; */
+}
+
+#home-link {
+    text-align: center;
 }
 
 .home-link {
@@ -214,11 +225,20 @@ a.nav-link#current {
     text-decoration: none;
     list-style: none;
     text-align: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     font-size: 14px;
     /* margin-right: 20px; */
     /* background-color: brown; */
 
+}
+
+.cover-copyright {
+    /* width: 70%; */
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    font-size:14px;
+    padding: 20px;
 }
 
 #main-text {
@@ -230,6 +250,7 @@ a.nav-link#current {
     font-size: 45px;
     font-family: 'Satisfy', cursive;
 }
+
 
 /* ---------------------------------------------------- */
 /* --------- Main Content for text-based subpages ----- */
@@ -474,11 +495,11 @@ footer {
     
 
     .header-container, .content, .footer, .content2 {
-        width: 65%;
+        width: 85%;
     }
     
     .home-nav {
-        width: 100%;
+        width: 70%;
     }
 
     .dropdown-item {
@@ -486,6 +507,28 @@ footer {
         font-size:14px;
         font-weight: 300;
     }
+
+    .logo {
+        font-size: 26px;
+    }    
+
+    .main-intros {
+        text-align: center;
+        margin-top: 15vh;
+    }
+
+    .main-name, #big-name {
+        font-size: 28px;
+    }
+    
+    #main-text {
+        font-size: 16px;
+    }
+
+    .home-link {
+        font-size: 12px;
+    }
+
 }
 
   @media (min-width: 1200px) {
@@ -499,14 +542,9 @@ footer {
       }
   }
 
-  @media (max-width:450px) {
-    .header-container, .content, .footer, .content2 {
-        width: 85%;
-    }
-    .logo {
-        font-size: 26px;
-    }    
+  @media (max-width: 800px) {
     .home-nav {
         width: 100%;
     }
+
 }
