@@ -162,6 +162,10 @@ nav.normal-nav {
     box-shadow: 0 3px 6px 0 #9b9b9b;
 }
 
+.intro-pic#teaching, .intro-pic#research {
+    width: 98%;
+}
+
 
 /* ---------------------------------------------------- */
 /* -------------------- Home page --------------------- */
