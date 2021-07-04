@@ -507,9 +507,7 @@ footer {
     }
     
 
-    .header-container, .content, .footer, .content2 {
-        width: 85%;
-    }
+    
     
     .home-nav {
         width: 70%;
@@ -560,4 +558,7 @@ footer {
         width: 100%;
     }
 
+    .header-container, .content, .footer, .content2 {
+        width: 85%;
+    }
 }
