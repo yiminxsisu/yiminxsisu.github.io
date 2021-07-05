@@ -378,6 +378,11 @@ footer {
     color: #7c797ada;
 }
 
+.nav-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
 
 
 
