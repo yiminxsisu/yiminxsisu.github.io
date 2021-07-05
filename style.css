@@ -368,6 +368,15 @@ footer {
     font-weight: 300;
 }
 
+#nav-bottom {
+    color: #c3bdc0da;
+    font-size: 14px;
+    text-align: left;
+}
+
+#nav-bottom:hover {
+    color: #7c797ada;
+}
 
 
 
