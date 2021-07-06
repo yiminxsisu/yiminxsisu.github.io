@@ -151,12 +151,13 @@ nav.normal-nav {
 }
 
 .nav-link:hover {
-    color: #2a292ada;
+    color: #101010da;
 }
 
-/* a.nav-link#current {
-    font-weight: 400;
-} */
+a.nav-link#current {
+    color: #424041d0;
+    font-weight:400;
+}
 
 .intro#pic {
     align-items: center;
