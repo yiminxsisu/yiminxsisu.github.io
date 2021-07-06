@@ -48,6 +48,7 @@ a:hover {
 
 b {
     font-weight: 400;
+    font-size: 16px;
 }
 
 hr {
@@ -155,8 +156,8 @@ nav.normal-nav {
 }
 
 a.nav-link#current {
-    color: #424041d0;
-    font-weight:400;
+    color: #949092da;
+    /* font-weight:400; */
 }
 
 .intro#pic {
