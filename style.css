@@ -74,7 +74,7 @@ header {
     /* background-color: rgba(252, 251, 250, 0.858); */
     margin-top: 3%;
     width: 100%;
-    background-color: ;
+    /* background-color: ; */
 }
 
 .header-container {
@@ -263,14 +263,24 @@ a.nav-link#current {
 }
 
 #main-text {
-    font-size: 17px;
+    font-size: 18px;
 }
 
 #parenthesis {
     font-size: 12px;
 }
 
+.intros {
+    display: flex;
+    margin-top: auto;
+}
 
+.intro-texts {
+    flex: 50%;
+    text-align: left;
+    margin-left: 12%;
+    /* margin-top: -12%; */
+}
 
 
 /* ---------------------------------------------------- */
