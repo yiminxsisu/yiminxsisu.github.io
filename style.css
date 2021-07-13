@@ -72,7 +72,7 @@ h5 {
 
 header {
     /* background-color: rgba(252, 251, 250, 0.858); */
-    margin-top: 3%;
+    margin-top: 2%;
     width: 100%;
     /* background-color: ; */
 }
@@ -90,12 +90,12 @@ header {
 }
 
 .logo-container {
-    margin-top: 1.4%;
+    margin-top: 0.4%;
 }
 
 .nav-links {
     display: flex;
-    margin-top: 1.4%;
+    margin-top: 0.4%;
 }
 
 .logo-container {
@@ -104,9 +104,9 @@ header {
 
 .logo{
     /* margin: 5px; */
-    font-size: 36px;
+    font-size: 26px;
     /* font-weight: bold; */
-    font-weight: 600;
+    font-weight: 300;
     color:#424041da;
     /* color:white; */
     text-decoration: none;
@@ -118,10 +118,14 @@ header {
     /* font-family: 'Merriweather', serif; */
     /* font-family: 'Open Sans', sans-serif; */
     /* font-family: 'Roboto', sans-serif; */
-    font-family: 'Satisfy', cursive;
-    /* font-family: 'Quicksand', sans-serisf; */
+    /* font-family: 'Satisfy', cursive; */
+    font-family: 'Quicksand', sans-serisf;
 
 }
+
+/* #logo-big-letter {
+    font-size: 26px;
+} */
 
 .logo:hover {
     color: #2a292ada;
@@ -198,15 +202,15 @@ a.nav-link#current {
 .main-name {
     font-size: 36px;
     font-weight: 600;
-    /* font-family: 'Quicksand', sans-serif; */
+    font-family: 'Quicksand', sans-serif;
 
 }
 
 #big-name {
     color: rgba(255, 108, 45, 0.94); 
-    font-size: 40px;
+    font-size: 36px;
     font-family: 'Satisfy', cursive;
-    /* font-family: 'Quicksand', sans-serif; */
+    font-family: 'Quicksand', sans-serif;
 
 }
 
@@ -517,6 +521,21 @@ footer {
 
 
 
+
+
+/* ---------------------------------------------------- */
+/* ------------- Alternative cover -------------------- */
+/* ---------------------------------------------------- */
+
+#cover2-about {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 5%;
+}
+
+
+
+
 /* ---------------------------------------------------- */
 /* ------------- Mobile accessbility ------------------ */
 /* ---------------------------------------------------- */
@@ -577,6 +596,10 @@ footer {
         font-size: 20px;
     }    
 
+    #logo-big-letter {
+        font-size: 22px;
+    }
+
     .main-intros {
         text-align: center;
         margin-top: 8vh;
@@ -619,4 +642,8 @@ footer {
     .logo {
         font-size: 20px;
     }   
+
+    #logo-big-letter {
+        font-size: 22px;
+    }
 }
