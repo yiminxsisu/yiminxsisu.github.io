@@ -106,7 +106,7 @@ header {
     /* margin: 5px; */
     font-size: 36px;
     /* font-weight: bold; */
-    font-weight: 800;
+    font-weight: 600;
     color:#424041da;
     /* color:white; */
     text-decoration: none;
@@ -119,6 +119,8 @@ header {
     /* font-family: 'Open Sans', sans-serif; */
     /* font-family: 'Roboto', sans-serif; */
     font-family: 'Satisfy', cursive;
+    /* font-family: 'Quicksand', sans-serisf; */
+
 }
 
 .logo:hover {
@@ -194,8 +196,9 @@ a.nav-link#current {
 }
 
 .main-name {
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 600;
+    /* font-family: 'Quicksand', sans-serif; */
 
 }
 
@@ -203,6 +206,8 @@ a.nav-link#current {
     color: rgba(255, 108, 45, 0.94); 
     font-size: 40px;
     font-family: 'Satisfy', cursive;
+    /* font-family: 'Quicksand', sans-serif; */
+
 }
 
 .main-pic {
@@ -427,6 +432,10 @@ footer {
     font-weight: 400;
 }
 
+.photo-title#sunglow, .photo-title#city {
+    font-weight: 300;
+}
+
 .image-container {
     margin-top: 3%;
     margin-bottom: 3%;
@@ -565,7 +574,7 @@ footer {
     }
 
     .logo {
-        font-size: 26px;
+        font-size: 20px;
     }    
 
     .main-intros {
@@ -608,6 +617,6 @@ footer {
     }
 
     .logo {
-        font-size: 26px;
+        font-size: 20px;
     }   
 }
