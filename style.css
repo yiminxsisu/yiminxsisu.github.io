@@ -225,6 +225,7 @@ a.nav-link#current {
     width: 100%;
     /* margin-bottom: 8vh; */
     margin-top: 6vh;
+    margin-bottom: 10vh;
 }
 
 .home-nav {
@@ -633,6 +634,8 @@ footer {
         font-size: 12px;
     }
 
+    
+
 }
 
   @media (min-width: 1200px) {
@@ -669,5 +672,12 @@ footer {
 
     .main-intros {
         margin-top: 0;
+    }
+
+    .main-pic-2 {
+        width: 100%;
+        /* margin-bottom: 8vh; */
+        margin-top: 2vh;
+        margin-bottom: 0vh;
     }
 }
