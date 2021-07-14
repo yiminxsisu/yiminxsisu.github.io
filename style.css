@@ -162,7 +162,7 @@ nav.normal-nav {
 }
 
 a.nav-link#current {
-    color: #949092da;
+    color: #787476da;
     /* font-weight:400; */
 }
 
@@ -342,8 +342,8 @@ a.nav-link#current {
     margin-bottom: 2%;
     /* font-size: 15px; */
     /* margin-left: -2%; */
-    font-weight: 500;
-    font-size:17px;
+    font-weight: 400;
+    font-size:16.5px;
     /* font-family: 'Open Sans', sans-serif; */
 }
 
@@ -354,8 +354,8 @@ a.nav-link#current {
     /* margin-top: 7%; */
     /* font-size: 15px; */
     /* margin-left: -2%; */
-    font-weight: 500;
-    font-size:17px;
+    font-weight: 400;
+    font-size:16.5px;
     /* font-family: 'Open Sans', sans-serif; */
 }
 
@@ -363,7 +363,7 @@ a.nav-link#current {
 .category-title {
     margin-bottom: 2%;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .category-item {
