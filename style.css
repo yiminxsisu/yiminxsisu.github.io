@@ -666,4 +666,8 @@ footer {
     .main-texts, .main-name {
         width:100%;
     }
+
+    .main-intros {
+        margin-top: 0;
+    }
 }
