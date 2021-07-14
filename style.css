@@ -618,7 +618,7 @@ footer {
 
     .main-intros {
         text-align: center;
-        margin-top: 8vh;
+        /* margin-top: 8vh; */
     }
 
     .main-name, #big-name {
