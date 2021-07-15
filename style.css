@@ -209,6 +209,10 @@ a.nav-link#current {
 
 } */
 
+.main-name {
+    font-weight: 400;
+}
+
 #big-name {
     color: rgba(255, 108, 45, 0.94); 
     font-size: 18px;
