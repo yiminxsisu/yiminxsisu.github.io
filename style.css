@@ -66,6 +66,10 @@ h5 {
     font-weight: 600;
 }
 
+.content, .content2, .header-container {
+    width: 50%;
+}
+
 /* ---------------------------------------------------- */
 /* ----------- Header for sub pagess ------------------ */
 /* ---------------------------------------------------- */
@@ -81,7 +85,7 @@ header {
     display: flex;
     justify-content: space-between;
     /* background: lightblue; */
-    width: 45%;
+    /* width: 48%; */
     height: 10vh;
     margin:auto;
     /* margin-top: 0.5%; */
@@ -333,7 +337,7 @@ a.nav-link#current {
 /* ---------------------------------------------------- */
 
 .content {
-    width: 45%;
+    /* width: 48%; */
     margin: 0 auto;
     /* display: flex;
     justify-content: flex-start; */
@@ -444,7 +448,7 @@ footer {
 /* ---------------------------------------------------- */
 
 .content2 {
-    width: 45%;
+    /* width: 48%; */
     margin: 0 auto;
     margin-bottom: 3%;
     /* background-color: antiquewhite; */
@@ -644,6 +648,12 @@ footer {
     
 
 }
+
+  @media (min-width: 1700px) {
+    .content, .content2, .header-container {
+        width: 45%;
+    }
+  }
 
   @media (min-width: 1200px) {
     nav.small-nav {
