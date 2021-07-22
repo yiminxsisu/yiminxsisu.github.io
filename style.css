@@ -196,13 +196,13 @@ a.nav-link#current {
 /* ---------------------------------------------------- */
 
 .content#cover {
-    height:75vh;
+    height:65vh;
     /* background-color: blue; */
 }
 
 .main-intros {
     text-align: center;
-    margin-top: 8vh;
+    margin-top: 5vh;
     /* background: blueviolet; */
 }
 
