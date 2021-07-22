@@ -202,7 +202,7 @@ a.nav-link#current {
 
 .main-intros {
     text-align: center;
-    margin-top: 5vh;
+    margin-top: 2vh;
     /* background: blueviolet; */
 }
 
@@ -235,8 +235,8 @@ a.nav-link#current {
 .main-pic-2 {
     width: 100%;
     /* margin-bottom: 8vh; */
-    margin-top: 6vh;
-    margin-bottom: 10vh;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
 }
 
 .home-nav {
