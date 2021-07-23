@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content='ie=edge'>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href='style.css'>
+        <!-- <link rel="shortcut icon" href="images/leaf.png"> -->
+        <!-- <link rel="shortcut icon" href="images/beaver.png"> -->
+        <title>Yimin Xiao - TV</title>
+    </head>
+    <body>
+        <header>
+            <div class="header-container">
+                <div class="logo-container">
+                    <a href="https://yiminxiao.com" class="logo">YIMIN XIAO</a>
+                </div>
+                <nav class='normal-nav'>
+                    <ul class="nav-links">
+                        <li><a href="index.html" class="nav-link">HOME</a></li>
+                        <li><a href="research.html" class="nav-link">RESEARCH</a></li>
+                        <li><a href="teaching.html" class="nav-link">TEACHING</a></li>
+                        <li><a href="misc.html" class='nav-link' id='current'>MISC.</a></li>
+                    </ul>
+                </nav>
+                <!-- navigation button on small screen -->
+                <nav class="small-nav">
+                    <!-- <img src="images/outline.png" alt="" class="dropbtn" width="46px">
+                    <div class="dropdown-content">
+                        <a href="index.html" class="nav-link">ABOUT</a>
+                        <a href="#research" class="nav-link">RESEARCH</a>
+                        <a href="#teaching" class="nav-link">TEACHING</a>
+                        <a href="#misc" class='nav-link'>MISC.</a>
+                    </div> -->
+                    <div class="dropdown">
+                        <!-- <button class="btn btn-outline-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          
+                        </button> -->
+                        
+                        <img src="images/outline.jpg" alt="" type="button" class="dropbtn" width="100%" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="index.html">HOME</a>
+                            <a class="dropdown-item" href="research.html">RESEARCH</a>
+                            <a class="dropdown-item" href="teaching.html">TEACHING</a>
+                            <a class="dropdown-item" href="misc.html">MISC.</a>
+                        </div>
+                    </div>
+                </nav>   
+            </div>
+            <hr class='head-divider'>            
+        </header>
+        <main>
+
+            <div class='content' id='reading-list'>
+
+                <img src="images/Syracuse-10.jpg" alt="" width="100%" class='intro-pic'><br><br>
+                <div class="section">
+                    <div class="section-title">I mean, it's just wonderful to binge-watch</div>
+                </div>
+
+                <!-- Medic -->
+                <div class="section" id="medic">
+                    <div class="book-section">#medical</div>
+                    <div class="book-items">
+                        <div class="book-item">Grey's Anatomy</div>
+                        <div class="book-item">Private Practice</div>
+                        <div class="book-item">The Night Shift</div>
+                        <div class="book-item">Virgin River</div>
+                        <div class="book-item">The Good Doctor</div>
+                        <div class="book-item">The Resident</div>
+                        <div class="book-item">Code Black</div>
+                    </div>
+                </div>
+
+                <div class="section" id="politics">
+                    <div class="book-section">#political #legal</div>
+                    <div class="book-items">
+                        <div class="book-item">The West Wing</div>
+                        <div class="book-item">Madam Secretary</div>
+                        <div class="book-item">Silk</div>
+                        <div class="book-item">The Good Wife</div>
+                        <div class="book-item">The Newsroom</div>
+                        <div class="book-item">Scandal</div>
+                        <div class="book-item">Desiganated Survivor</div>
+                        <div class="book-item">Suits</div>
+                    </div>
+                </div>
+                    
+                <div class="section" id="crime">
+                    <div class="book-section">#crime</div>
+                    <div class="book-items">
+                        <div class="book-item">NCIS, NCIS: New Orleans</div>
+                        <div class="book-item">Hawaii Five-0</div>
+                        <div class="book-item">Criminal Minds</div>
+                        <div class="book-item">White Collar</div>
+                        <div class="book-item">Scorpion</div>
+                    </div>
+                </div>
+
+                <div class="section" id="comedy">
+                    <div class="book-section">#comedy #sitcom</div>
+                    <div class="book-items">
+                        <div class="book-item">How I Met your Mother</div>
+                        <div class="book-item">Modern Family</div>
+                        <div class="book-item">Friends</div>
+                        <div class="book-item">Shameless</div>
+                    </div>
+                </div>
+
+                <div class="section" id="comic">
+                    <div class="book-section">#animation</div>
+                    <div class="book-items">
+                        <div class="book-item">We Bare Bears</div>
+                        <div class="book-item">The Snoopy Show</div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <div class="book-section">#action</div>
+                    <div class="book-items">
+                        <div class="book-item">9-1-1, 9-1-1: Lone Star</div>
+                        <div class="book-item">Station 19</div>
+                    </div>
+                </div>
+
+
+                <div class="nav-bottom">
+                    <a href="sunglow.html" id='nav-bottom'>Previous: Sunglow</a>
+                    <a href="misc.html" id='nav-bottom'>Back to MISC.</a>
+                    <a href="museum.html" id='nav-bottom'>Next: Museum</a>
+                </div>
+            </div>
+
+            
+        </div>
+        </main>  
+    
+        <footer>
+            <div class="copyright">
+                
+                © 2021 Yimin Xiao. All rights reserved.
+            </div>
+        </footer>
+    
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    
+    </body>
+</html>
+
