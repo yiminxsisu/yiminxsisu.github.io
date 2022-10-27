@@ -88,9 +88,10 @@ header {
 
 .main-intros {
     text-align: center;
-    display:grid;
-    grid-template-columns: 0.6fr 0.4fr;
-    grid-column-gap: 10%; 
+    width: 58%;
+    /* display:grid;
+    grid-template-columns: fr 0.4fr;
+    grid-column-gap: 10%;  */
 }
 
 
@@ -103,20 +104,12 @@ header {
     color:#797577da;
 }
 
-.main-texts, .main-name {
-    /* width:58%; */
+.main-texts {
     margin:auto;
     /* margin-left:30%; */
     text-align:left;
 
 }
-
-.intro-photo {
-    width: 76%;
-    height: auto;
-    margin-left: 10%;
-}
-
 
 
 
