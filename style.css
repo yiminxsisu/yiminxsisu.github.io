@@ -32,7 +32,7 @@ a {
 
 
 a:hover {
-    color:rgba(211, 75, 16, 0.94);
+    color:rgba(95, 31, 10, 0.94);
     text-decoration: none;
 }
 
@@ -78,6 +78,10 @@ header {
     font-family: 'Quicksand', sans-serif;
 }
 
+.logo:hover {
+    color:rgba(95, 31, 10, 0.94);
+}
+
 
 
 /* ---------------------------------------------------- */
@@ -87,7 +91,6 @@ header {
 
 
 .main-intros {
-    text-align: center;
     width: 58%;
     /* display:grid;
     grid-template-columns: fr 0.4fr;
@@ -104,12 +107,24 @@ header {
     color:#797577da;
 }
 
-.main-texts {
-    margin:auto;
-    /* margin-left:30%; */
-    text-align:left;
 
+
+/* ---------------------------------------------------- */
+/* ------------- Mobile accessbility ------------------ */
+/* ---------------------------------------------------- */
+
+@media (max-width: 1200px) {
+    
+    .main-intros {
+        width: 80%;
+    }
+    
 }
 
-
-
+@media (max-width: 800px) {
+    
+    .main-intros {
+        width: 100%;
+    }
+    
+}
