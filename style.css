@@ -1,0 +1,122 @@
+/* ---------------------------------------------------- */
+/* ------------- Fonts and margins -------------------- */
+/* ---------------------------------------------------- */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color:#250505f1;
+    font-size:16px;
+}
+
+body {
+    /* font-family: 'Noto Sans SC', sans-serif; font-weight: 400; font-style:normal; */
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: "Calibri", sans-sefit; */
+    /* font-family: Helvetica Neue,Helvetica,Arial,sans-serif;  */
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    background-color: rgba(248, 242, 233, 0.838);
+}
+
+
+p {
+    margin-bottom: 2%;
+}
+
+a {
+    color:rgba(137, 43, 12, 0.94);
+    text-decoration: none;
+}
+
+
+a:hover {
+    color:rgba(211, 75, 16, 0.94);
+    text-decoration: none;
+}
+
+b {
+    font-weight: 400;
+}
+
+h5 {
+    font-weight: 600;
+}
+
+.content,.header-container, footer {
+    width: 55%;
+    margin:auto;
+    height: 60%;
+}
+
+/* ---------------------------------------------------- */
+/* --------------------- Header  ---------------------- */
+/* ---------------------------------------------------- */
+
+header {
+    margin-top: 10%;
+    margin-bottom: 3%;
+    width: 100%;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    margin:auto;
+    align-items: center;
+    
+}
+
+
+.logo{
+    font-size: 30px;
+    font-weight: 300;
+    color:#424041da;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+
+/* ---------------------------------------------------- */
+/* -------------------- Home page --------------------- */
+/* ---------------------------------------------------- */
+
+
+
+.main-intros {
+    text-align: center;
+    display:grid;
+    grid-template-columns: 0.6fr 0.4fr;
+    grid-column-gap: 10%; 
+}
+
+
+
+.cover-copyright {
+    align-items: center;
+    margin: auto;
+    text-align: left;
+    font-size:14px;
+    color:#797577da;
+}
+
+.main-texts, .main-name {
+    /* width:58%; */
+    margin:auto;
+    /* margin-left:30%; */
+    text-align:left;
+
+}
+
+.intro-photo {
+    width: 76%;
+    height: auto;
+    margin-left: 10%;
+}
+
+
+
+
