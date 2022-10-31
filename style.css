@@ -25,8 +25,29 @@ p {
     margin-bottom: 2%;
 }
 
+p.Chinese {
+    font-size: 14px; 
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p.page-title {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+p.section-title {
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+p#book-item {
+    margin-bottom: 3px;
+}
+
 a {
-    color:rgba(137, 43, 12, 0.94);
+    color:rgba(143, 46, 14, 0.94);
     text-decoration: none;
 }
 
@@ -45,9 +66,8 @@ h5 {
 }
 
 .content,.header-container, footer {
-    width: 55%;
+    width: 56%;
     margin:auto;
-    height: 60%;
 }
 
 /* ---------------------------------------------------- */
@@ -72,7 +92,7 @@ header {
 
 .logo{
     font-size: 30px;
-    font-weight: 300;
+    font-weight: 400;
     color:#424041da;
     text-decoration: none;
     font-family: 'Quicksand', sans-serif;
