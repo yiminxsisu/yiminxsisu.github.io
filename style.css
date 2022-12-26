@@ -135,8 +135,12 @@ header {
 
 @media (max-width: 1200px) {
     
+    .content,.header-container, footer {
+        width: 70%;
+        margin:auto;
+    }
     .main-intros {
-        width: 80%;
+        width: 100%;
     }
     
 }
