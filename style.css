@@ -133,14 +133,14 @@ header {
 /* ------------- Mobile accessbility ------------------ */
 /* ---------------------------------------------------- */
 
-@media (max-width: 1200px) {
+@media (max-width: 1550px) {
     
     .content,.header-container, footer {
-        width: 70%;
+        width: 56%;
         margin:auto;
     }
     .main-intros {
-        width: 100%;
+        width: 85%;
     }
     
 }
