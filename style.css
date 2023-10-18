@@ -8,6 +8,7 @@
     box-sizing: border-box;
     color:#250505f1;
     font-size:16px;
+    line-height: 20px;
 }
 
 body {
@@ -17,7 +18,7 @@ body {
     /* font-family: Helvetica Neue,Helvetica,Arial,sans-serif;  */
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
-    background-color: rgba(248, 242, 233, 0.838);
+    background-color: rgba(244, 243, 249, 0.838);
 }
 
 
