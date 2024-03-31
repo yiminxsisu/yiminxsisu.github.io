@@ -102,6 +102,7 @@ header {
 
 .logo:hover {
     color:rgba(95, 31, 10, 0.94);
+    text-decoration: none;
 }
 
 .nav-link{
