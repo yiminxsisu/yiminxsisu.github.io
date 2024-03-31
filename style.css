@@ -49,14 +49,14 @@ p#book-item {
 }
 
 a {
-    color:rgba(143, 46, 14, 0.94);
-    text-decoration: none;
+    color:rgba(183, 68, 29, 0.94);
+    text-decoration: underline;
 }
 
 
 a:hover {
     color:rgba(95, 31, 10, 0.94);
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 b {
@@ -109,6 +109,11 @@ header {
     font-family: "freight-sans-pro", sans-serif;
     font-weight: 300;
     margin-top: 20px;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    text-decoration: none;
 }
 
 
