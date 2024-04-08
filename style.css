@@ -27,19 +27,13 @@ p {
     line-height: 130%;
 }
 
-p.Chinese {
-    font-size: 14px; 
-    font-weight: 300;
-    font-family: 'Open Sans', sans-serif;
-}
-
 p.page-title {
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 p.section-title {
-    font-weight: 600;
+    font-weight: 400;
     margin-top: 24px;
     margin-bottom: 24px;
 }
@@ -70,6 +64,12 @@ h5 {
 .content,.header-container, footer {
     width: 65%;
     margin:auto;
+}
+
+span.CH {
+    font-size: 14px; 
+    font-weight: 400;
+    /* font-family: "Noto Serif SC", serif; */
 }
 
 /* ---------------------------------------------------- */
