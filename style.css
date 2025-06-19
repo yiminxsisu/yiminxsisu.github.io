@@ -57,7 +57,7 @@ a:hover {
 }
 
 b {
-    font-weight: 600;
+    font-weight: 500;
 }
 
 h5 {
@@ -132,12 +132,12 @@ header {
 
 
 .main-intros {
-    width: 58%;
+    width: 63%;
     display:flex;
 }
 
 .main-content {
-    width: 58%;
+    width: 70%;
 }
 
 .cover-copyright {
