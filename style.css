@@ -70,7 +70,7 @@ h5 {
 }
 
 span.CH {
-    font-size: 14px; 
+    font-size: 12px; 
     font-weight: 400;
     /* font-family: "Noto Serif SC", serif; */
 }
@@ -85,7 +85,7 @@ img {
 /* ---------------------------------------------------- */
 
 header {
-    margin-top: 10%;
+    margin-top: 8%;
     margin-bottom: 3%;
     width: 100%;
 }
