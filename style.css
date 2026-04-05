@@ -155,7 +155,7 @@ header {
 @media (max-width: 1550px) {
     
     .content,.header-container, footer {
-        width: 56%;
+        width: 60%;
         margin:auto;
     }
     .main-intros, .main-content {
