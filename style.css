@@ -132,7 +132,7 @@ header {
 
 
 .main-intros {
-    width: 63%;
+    width: 65%;
     display:flex;
 }
 
@@ -155,7 +155,7 @@ header {
 @media (max-width: 1550px) {
     
     .content,.header-container, footer {
-        width: 56%;
+        width: 58%;
         margin:auto;
     }
     .main-intros, .main-content {
