@@ -184,6 +184,30 @@ header {
     margin-bottom: 50px;
 }
 
+
+/* ---------------------------------------------------- */
+/* ------------- Updates Timeline  -------------------- */
+/* ---------------------------------------------------- */
+
+.timeline {
+  border-collapse: collapse;
+}
+
+.timeline th {
+  width: 85px;
+  text-align: left;
+  vertical-align: top;
+  font-weight: 500;
+  padding: 0;
+  color:#222222f1;
+}
+
+.timeline td {
+  padding-left: 8px;
+  vertical-align: top;
+  padding-bottom: 12px;
+}
+
 /* ---------------------------------------------------- */
 /* ------------- Mobile accessbility ------------------ */
 /* ---------------------------------------------------- */
