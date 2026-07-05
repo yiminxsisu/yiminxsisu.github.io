@@ -104,7 +104,7 @@ header {
 }
 
 .logo-container {
-    width: 340px;
+    width: 360px;
 }
 
 .logo{
@@ -152,8 +152,8 @@ header {
 }
 
 .main-photo{
-    width: 220px;
-    margin-right: 120px;
+    width: 260px;
+    margin-right: 100px;
     margin-top: 10px;
 }
 
@@ -184,18 +184,23 @@ header {
 /* ------------- Mobile accessbility ------------------ */
 /* ---------------------------------------------------- */
 
-/* @media (max-width: 1550px) {
+@media (max-width: 1550px) {
+
+    .logo-container {
+    width: 323px;
+}
+
     
-    .content,.header-container, footer {
+    /* .content,.header-container, footer {
         width: 58%;
         margin:auto;
     }
     .main-intros, .main-content {
         width: 85%;
         display: flex;
-    }
+    } */
 
-} */
+}
 
 @media (max-width: 800px) {
     .content,.header-container, footer {
