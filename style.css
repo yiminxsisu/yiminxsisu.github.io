@@ -100,7 +100,7 @@ header {
 .header-container {
     display: flex;
     /* justify-content: center; */
-    height: 8vh;
+    height: 7vh;
     margin:auto;
     align-items: baseline;
     margin-top: 30pxs;
