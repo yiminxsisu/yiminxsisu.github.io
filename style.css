@@ -72,7 +72,7 @@ h5 {
 
 /* Main body width */
 .content,.header-container, footer {
-    width: 65%;
+    width: 70%;
     margin:auto;
 }
 
@@ -83,9 +83,14 @@ span.CH {
 }
 
 
+span.important-note {
+    color: #222222f1;
+}
+
 img {
     box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
 }
+
 
 /* ---------------------------------------------------- */
 /* --------------------- Header  ---------------------- */
@@ -108,7 +113,7 @@ header {
 }
 
 .logo-container {
-    width: 360px;
+    width: 350px;
 }
 
 .logo{
@@ -156,7 +161,7 @@ header {
 }
 
 .main-photo{
-    width: 260px;
+    width: 250px;
     margin-right: 100px;
     margin-top: 10px;
 }
@@ -215,7 +220,7 @@ header {
 @media (max-width: 1550px) {
 
     .logo-container {
-    width: 323px;
+    width: 350px;
 }
 
     
